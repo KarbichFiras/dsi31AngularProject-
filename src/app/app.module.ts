@@ -4,9 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { NavbarComponent } from './navbar/navbar.component';
+
+
+
 import { PaymentsComponent } from './payments/payments.component';
 import { AddfoodComponent } from './addfood/addfood.component';
 import { PanierComponent } from './panier/panier.component';
+import { SearchFComponent } from './search-f/search-f.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +18,8 @@ import { PanierComponent } from './panier/panier.component';
     NavbarComponent,
     PaymentsComponent,
     AddfoodComponent,
-    PanierComponent
+    PanierComponent?
+    SearchFComponent
   ],
   imports: [
     BrowserModule,
