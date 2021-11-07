@@ -1,10 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule , Routes } from '@angular/router';
-
+import {PaymentsComponent } from "./payments/payments.component"
   const routes : Routes =[  
-    //{path :"/consulterPanier" , component: consulterPanier },
-    //{path :"/consulterPanier" , component: consulterPanier },
-    
+    {path :"payments" , component : PaymentsComponent },
   ];
 
 @NgModule({
