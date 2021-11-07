@@ -6,13 +6,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { NavbarComponent } from './navbar/navbar.component';
 import { PaymentsComponent } from './payments/payments.component';
 import { AddfoodComponent } from './addfood/addfood.component';
+import { PanierComponent } from './panier/panier.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     PaymentsComponent,
-    AddfoodComponent
+    AddfoodComponent,
+    PanierComponent
   ],
   imports: [
     BrowserModule,
