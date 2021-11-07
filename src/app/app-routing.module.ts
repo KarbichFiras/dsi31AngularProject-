@@ -2,7 +2,8 @@ import { NgModule } from '@angular/core';
 import { RouterModule , Routes } from '@angular/router';
 
   const routes : Routes =[  
-    //{path :"" , component:""},
+    //{path :"/consulterPanier" , component: consulterPanier },
+    //{path :"/consulterPanier" , component: consulterPanier },
     
   ];
 
