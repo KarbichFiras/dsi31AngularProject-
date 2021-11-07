@@ -18,7 +18,7 @@ import { SearchFComponent } from './search-f/search-f.component';
     NavbarComponent,
     PaymentsComponent,
     AddfoodComponent,
-    PanierComponent?
+    PanierComponent,
     SearchFComponent
   ],
   imports: [
